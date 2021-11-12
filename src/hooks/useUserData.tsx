@@ -14,7 +14,7 @@ const UserDataContext = createContext({} as UserDataContextType);
 
 export function UserDataContextProvider({ children }: UserDataProps) {
   const userData = {
-    name: 'Marlon Brando'
+    name: 'Bruno Matos'
   };
 
   return (
